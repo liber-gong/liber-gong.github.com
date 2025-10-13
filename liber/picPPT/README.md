@@ -6,9 +6,9 @@ See it in the demo.(Idea borrow from sjtu.edu.cn)
 
 Contact me for more information:  
 
-[http://liber-gong.github.com/][0]  
+[http://liber-gong.github.io/][0]  
 
-[0]: http://liber-gong.github.com/
+[0]: http://liber-gong.github.io/
 
 ## Change Log
 

@@ -12,7 +12,7 @@ Liber Gong, Male, 1987-11, Shanghai
 
 Phone: +86 13681698273  
 Email: gjl87910lq@gmail.com  
-Blog: [https://liber-gong.github.com/](https://liber-gong.github.com/)  
+Blog: [https://liber-gong.github.io/](https://liber-gong.github.io/)  
 Github: [https://github.com/liber-gong/](https://github.com/liber-gong/)
 
 ## About
@@ -76,7 +76,7 @@ Description:
 Do companies want to quickly implement large model applications? Managing a development team is too costly? What can you do?  
 Agent Matrix can help! With Agent Matrix, you can quickly build your AI Agent workflow with simple prompts, helping your company leverage AI large model capabilities for business growth.  
 (You can think of it as a UI version of Langchain, which is a tool for engineers to quickly build AI Agents. Agent Matrix, however, is designed for IT staff in companies and is a platform for quickly customizing AI Agent workflows through a UI.)  
-For detailed product logic, see: [https://liber-gong.github.com/thoughts/2023/12/11/1.html](https://liber-gong.github.com/thoughts/2023/12/11/1.html)  
+For detailed product logic, see: [https://liber-gong.github.io/thoughts/2023/12/11/1.html](https://liber-gong.github.io/thoughts/2023/12/11/1.html)  
 Supports document-based responses, internet access (Google, Bing, Baidu, WeChat), and can access each result page instead of just reading search result digest.  
 Supports analyzing answers based on multiple uploaded large documents.  
 Integrated with web, WeChat, and WeChat Work. The web output surpasses the LLM token limit and supports mermaid tables.
@@ -88,7 +88,7 @@ A knowledge base project using ChatGPT. It’s built into their official website
 We made our own chunk splitting logic and used a private database to store embedding vector data.
 
 Project Name: LLM PMS  
-Responsibility: Core engineer, design and build the system. For detail, see [https://liber-gong.github.com/programmer/2023/05/04/1.html](https://liber-gong.github.com/programmer/2023/05/04/1.html)  
+Responsibility: Core engineer, design and build the system. For detail, see [https://liber-gong.github.io/programmer/2023/05/04/1.html](https://liber-gong.github.io/programmer/2023/05/04/1.html)  
 Description:  
 A PMS service that supports managing hotel business using natural language, deeply integrated with Google Sheets. It uses ChatGPT for natural language interactions and Kafka for command messaging.
 
@@ -142,7 +142,7 @@ Latest Nextjs + React Server component todo application demo：
 [https://github.com/liber-gong/todo](https://github.com/liber-gong/todo)
 
 In my early career, I developed the bootstrap-waterfall layout plugin. It got over 100 stars on GitHub.  
-[https://liber-gong.github.com/bootstrap-waterfall/](https://liber-gong.github.com/bootstrap-waterfall/)  
+[https://liber-gong.github.io/bootstrap-waterfall/](https://liber-gong.github.io/bootstrap-waterfall/)  
 A jQuery plugin that works with responsive layouts. Support asynchronous loading. Clean code that easy to understand. Good decoupling design.  
 
 Built and npm package: react-chatgpt, It can be embedded as an AI assistant UI in any webpage.  
@@ -160,4 +160,4 @@ Built and npm package: react-chatgpt, It can be embedded as an AI assistant UI i
 - Candidate interviewing
 - Business essentials
 
-See more at: [https://liber-gong.github.com/thoughts/2024/07/12/1.html](https://liber-gong.github.com/thoughts/2024/07/12/1.html)
+See more at: [https://liber-gong.github.io/thoughts/2024/07/12/1.html](https://liber-gong.github.io/thoughts/2024/07/12/1.html)

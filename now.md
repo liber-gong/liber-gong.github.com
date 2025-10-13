@@ -26,5 +26,5 @@ Understanding ECMAScript 6, Nicholas C. Zakas
 
 ### URLs:  
 [The 1050 Poetry of Christian](http://1050.14201420.com/)  
-[Liber's Blog](http://liber-gong.github.com/)  
-[bootstrap-waterfall](http://liber-gong.github.com/bootstrap-waterfall)  
+[Liber's Blog](http://liber-gong.github.io/)  
+[bootstrap-waterfall](http://liber-gong.github.io/bootstrap-waterfall)  

@@ -4,9 +4,9 @@ It's used to help user select item from a list in which he/she can input keyword
 
 Contact me for more information:  
 
-[http://liber-gong.github.com/][0]  
+[http://liber-gong.github.io/][0]  
 
-[0]: http://liber-gong.github.com/
+[0]: http://liber-gong.github.io/
 
 
 ## Change Log

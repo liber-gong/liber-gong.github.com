@@ -1,4 +1,4 @@
-liber-gong.github.com
+liber-gong.github.io
 
 ## Development
 

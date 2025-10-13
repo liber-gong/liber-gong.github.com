@@ -12,7 +12,7 @@ text: 13681698273 / gjl87910lq@gmail.com（最后更新时间： 2024-12）
 
 Phone: +86 13681698273  
 Email: gjl87910lq@gmail.com  
-Blog: [https://liber-gong.github.com/](https://liber-gong.github.com/)  
+Blog: [https://liber-gong.github.io/](https://liber-gong.github.io/)  
 Github: [https://github.com/liber-gong/](https://github.com/liber-gong/)
 
 ### 关于我
@@ -67,7 +67,7 @@ The lifelong learner, the perfect "get things done" person.
 企业想要快速落地大模型的应用？管理开发团队的成本太高？外包团队不靠谱？怎么办？  
 Agent Matrix可以帮您！通过Agent Matrix，您可以通过简单的提示词培训，就能快速搭建您的AI Agent工作流程，帮助您的企业借助AI大模型的能力实现业务增长。  
 （可以把它理解成UI版的langchain，后者是给工程师使用的快速搭建AI Agent的工具，而Agent Matrix则是提供给企业IT人员的，是一个可以在UI上实现快速定制AI Agent工作流程的平台）。  
-详细的产品逻辑见：[https://liber-gong.github.com/thoughts/2023/12/11/1.html](https://liber-gong.github.com/thoughts/2023/12/11/1.html)  
+详细的产品逻辑见：[https://liber-gong.github.io/thoughts/2023/12/11/1.html](https://liber-gong.github.io/thoughts/2023/12/11/1.html)  
 支持基于文档的回答，支持访问互联网，互联网支持Google, bing, baidu, 微信（不是只看搜索结果摘要的内容，而是真正的进到每个结果页面里面去看内容），支持在指定的站点内搜索相关内容再进行回答。  
 支持上传多个大型文档进行分析回答。  
 接入了web端、个微和企业微信，web端的输出突破了LLM token总数的限制，接入了mermaid表格。
@@ -79,7 +79,7 @@ Agent Matrix可以帮您！通过Agent Matrix，您可以通过简单的提示�
 使用私有数据库存储embedding向量数据，实现了自己的chunk分段逻辑。
 
 项目名称：LLM 智能 PMS  
-我的职责：负责架构的设计与实现，详见：[https://liber-gong.github.com/programmer/2023/05/04/1.html](https://liber-gong.github.com/programmer/2023/05/04/1.html)  
+我的职责：负责架构的设计与实现，详见：[https://liber-gong.github.io/programmer/2023/05/04/1.html](https://liber-gong.github.io/programmer/2023/05/04/1.html)  
 项目描述：一个支持使用自然语言管理酒店业务的PMS服务，与Google Sheet深度集成，使用ChatGPT实现自然语言交互，使用kafka实现了命令的消息传递。  
 
 项目名称：Web3 Project - Swappi  
@@ -89,7 +89,7 @@ Agent Matrix可以帮您！通过Agent Matrix，您可以通过简单的提示�
 项目描述：Conflux旗下的核心DEX产品，日均活跃用户在1000左右。地址：[https://app.swappi.io/](https://app.swappi.io/)
 
 项目名称：Web3 Project - Meldex  
-我的职责：负责整个前端的设计与实现，以及实现将Venus借贷协议的ABI接口方法转化成前端杠杆形式的业务逻辑，详见：[https://liber-gong.github.com/thoughts/2024/07/24/1.html](https://liber-gong.github.com/thoughts/2024/07/24/1.html)  
+我的职责：负责整个前端的设计与实现，以及实现将Venus借贷协议的ABI接口方法转化成前端杠杆形式的业务逻辑，详见：[https://liber-gong.github.io/thoughts/2024/07/24/1.html](https://liber-gong.github.io/thoughts/2024/07/24/1.html)  
 项目描述：  
 利用闪电贷+借贷的方式实现的杠杆DEX，根据最大质押率，可以实现最多5倍杠杆。  
 本质是利用了Venus借贷协议提供的质押ABI接口，通过前端的转换，将表现形式转换成了Leverage的形式。
@@ -130,7 +130,7 @@ Wondervoy核心产品包括LLM AI Agent 平台和LLM 智能 PMS，它们通过AI
 [https://github.com/liber-gong/todo](https://github.com/liber-gong/todo)
 
 早年开发了bootstrap-waterfall瀑布流布局插件，收获了Github 100+ stars：  
-[https://liber-gong.github.com/bootstrap-waterfall/](https://liber-gong.github.com/bootstrap-waterfall/)  
+[https://liber-gong.github.io/bootstrap-waterfall/](https://liber-gong.github.io/bootstrap-waterfall/)  
 支持响应式布局的jQuery瀑布流插件，支持异步加载，代码简洁，模块清晰易懂，扩展性强。
 
 开发了一款聊天智能助手npm包：react-chatgpt，可以作为一个数字人UI嵌入任何网页使用：  
@@ -140,4 +140,4 @@ Wondervoy核心产品包括LLM AI Agent 平台和LLM 智能 PMS，它们通过AI
 
 学习知识和技术、向上管理、项目评估、项目管理、会议主持、带团队、战略方向、面试候选人、商业的本质
 
-详见：[https://liber-gong.github.com/thoughts/2024/07/12/1.html](https://liber-gong.github.com/thoughts/2024/07/12/1.html)
+详见：[https://liber-gong.github.io/thoughts/2024/07/12/1.html](https://liber-gong.github.io/thoughts/2024/07/12/1.html)

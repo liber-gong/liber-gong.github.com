@@ -6,6 +6,6 @@ This is a beta version, you can only have a try with it.
 
 Contact me for more information:  
 
-[http://liber-gong.github.com/][0]  
+[http://liber-gong.github.io/][0]  
 
-[0]: http://liber-gong.github.com/
+[0]: http://liber-gong.github.io/

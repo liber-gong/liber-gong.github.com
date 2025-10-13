@@ -15,9 +15,9 @@ Tested in IE8+, Chrome, FireFox.
 
 Contact me for more information:  
 
-[http://liber-gong.github.com/][0]  
+[http://liber-gong.github.io/][0]  
 
-[0]: http://liber-gong.github.com/
+[0]: http://liber-gong.github.io/
 [1]: https://github.com/liber-gong/theadFixer
 [2]: http://jqueryui.com/
 
