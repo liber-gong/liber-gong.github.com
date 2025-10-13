@@ -1,9 +1,4 @@
-
-## Welcome
-
-Welcome to liber-gong.github.com
-
-What's going on?
+liber-gong.github.com
 
 ## Development
 
