@@ -1,0 +1,171 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>初心：Side Project</title>
+  <link rel="stylesheet" type="text/css" href="/css/github.css" />
+  <link rel="stylesheet" type="text/css" href="/css/template.css" />
+</head>
+<body>
+
+<div class="wrapper">
+
+  <div class="header shadow">
+    <div class="header-wrapper">
+      <div class="header-logo">
+        <span><a href="/">LIBER</a></span>
+      </div>
+      <div class="header-nav">
+        <ul>
+          <li><a href="/"><span>首页</span></a></li>
+          <li><a href="/programmer.html"><span>程序员</span></a></li>
+          <li><a href="/thoughts.html"><span>思考</span></a></li>
+          <li><a href="/reading.html"><span>阅读</span></a></li>
+          <li><a href="/all.html"><span>全部内容</span></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="main shadow-sides">
+
+    <div class="main-wrapper">
+
+      <div class="main-title">初心：Side Project</div>
+
+      <div class="main-foot">
+        <span>Liber 2025-10-13 11:11 </span>
+      </div>
+
+      <div class="main-text">
+        <p>谨以此文记录该 Side Project 的初心</p>
+
+<hr />
+
+<p>draft:</p>
+
+<p>赚到 200W（不预设完成目标之后的规划，单纯的为完成目标）
+为什么？
+工作 (7) + 学习 (2) + 健身 (1) + 灵修 (0) + 育儿 (1) + 家庭陪伴 (0)
+目前每天工作学习就是为了养家，这样其实牺牲了灵修和服侍以及育儿的时间。
+不过，也不必钻牛角尖，实现的过程中，要体检和锻炼身体，也要做好基本的灵修，为以后预备，因为是需要积累的。
+最后即使财务自由没有实现，但也实现了服侍的预备和积累，以及身体健康这个基本条件。
+（如果按每年存 20 W 来算，需要存 10 年，好像还是不太够，而且这钱我认为不能从家庭积累里面算，毕竟家庭的积蓄如何分配是需要共同商讨的）</p>
+
+<p>我不认为通过交易能赚到 200 W，包括：
+- 感性的手动交易
+- 自己想出来的交易策略（手动执行和自动化）
+- 学到的交易策略（自动化）</p>
+
+<p>所以，通过打造一个交易平台，通过提供交易服务以创业的方式可能更可靠和现实</p>
+
+<hr />
+
+<p>提供的服务：
+问题：市面上的挂单机制都是固定的逻辑条件，但实际中，有可能需要在到了某个线之后，进入密切关注状态，监控和观察一段时间之后，再根据实际情况是否开仓</p>
+
+<p>问题：
+1）交易所同一账号开仓只能开一单，如果同一方向开多笔，会自动计算并合成一笔，这样等于摊平了成本，但实际上也摊平了收益（错失后一笔订单增加杠杆的机会；错失前一笔订单做长线保留敞口的机会）；
+2）同一账号也无法同时保留多和空两个方向。
+解决：
+1）使用子账户机制
+2）使用双向持仓模式
+所以，其实问题就变成了：手动管理多个子账户效率不高的问题（时间成本以及多了容易出错，没有统一的视角去查看和管理）</p>
+
+<p>市面上有的产品：
+专门做市场分析的平台
+专门做数据分析的平台
+专门聚合交易所 API 做自动化交易的平台</p>
+
+<p>业内人士往往是组合使用以上工具
+而量化交易基本上都有自己的研发团队</p>
+
+<p>对普通个人交易者来说：
+有执行自动化的平台可以设置一些指标自动执行交易，如 3Commas，派网
+有监控和警报平台：如 TradingView
+策略平台：用脚本（TradingView Pine Script）或开源交易框架（Freqtrade）或可视化策略平台（cryptohopper）来实现自己的策略
+个人可以组合使用它们</p>
+
+<p>jesse 是一个开源的交易框架，支持策略、回测、和实盘，但是它针对的是有一定开发经验的用户
+jesse.trade 商业化程度不高，并没有做到把 jesse 框架的功能以 web 服务的方式呈现</p>
+
+<p>用户故事：
+As a …, I want …, so that…</p>
+
+<p>作为个人交易者，我对我的钱负责，所以我要自定义我的策略
+现有平台或工具提供的策略是固定模式或者简单的逻辑执行，而我理想中的策略应该是千人千面，并且是基于分析可以动态调整的，而不是一直基于固定的逻辑的
+我没有时间盯盘，所以我的策略是需要能动态转化成代码逻辑的，所以策略是动态的，我需要 AI 可以按我的思路不定时 review 并重新调整策略的代码，并让我审批，
+最终能直接完成实盘交易，然后跟我发送 IM 通知，告诉我当前指标的客观数据，基于什么策略，进行了什么操作</p>
+
+<p>核心功能：
+将你的交易想法变成现实</p>
+
+<p>架构设计：
+前端：svelet(SPA) + cloudflare(BFF &amp; SSR) + api gateway</p>
+
+<p>交易引擎：jesse + fastapi(restful api)</p>
+
+<p>用户交互层：nestjs？（或者考虑能不能用 sst serverless 的方式）
+通知层：sst + lambda</p>
+
+<p>AI 层：n8n？</p>
+
+<hr />
+
+<p>mvp:</p>
+
+<p>交易引擎设计：
+jesse 集成了行情模块，先用 jesse 本地实现一个简单的交易策略
+（行情服务）然后试着把 jesse 的行情模块暴露出来成为一个服务
+（回测服务）然后跑回测，把这个也暴露出来成为一个服务
+（实盘交易服务）把实盘的操作也暴露成为服务
+（交易策略服务）
+支持保存交易策略（代码），
+开始/接管交易策略：开始后会进入状态机，每进入一次会：1）监控行情服务，2）采取的动作
+将上述内容通过通知服务发送到 IM</p>
+
+<p>用户交互层：
+（通知服务）用 sst + lambda 实现企业微信的调用</p>
+
+<p>前端：
+呈现上述服务</p>
+
+<hr />
+
+<p>把各个小的服务单独出来单独运营
+单独做 SEO 和 推广
+单独提供服务和收费</p>
+
+<p>小服务：按月订阅费</p>
+
+<p>交易平台：
+订阅费，AI 费用（再议），策略费（人工审核费），IM 费（不要，太多太细显得小气）
+私有化的费用（如果用户金额太大不会愿意把 API 托管在平台）</p>
+
+<hr />
+
+<p>backlogs and estimation:</p>
+
+<p>pending:
+- 成立公司（是为了招人，暂时还没钱还不成熟，现阶段可遇不可求）</p>
+
+<p>todo:
+- 先调研试一下 jesse 再说</p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="footer shadow-sides">
+    <div class="footer-wrapper">
+      <a href="https://liber-gong.github.io">https://liber-gong.github.io</a> | <span>gjl87910lq@gmail.com</span> ❤️
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>

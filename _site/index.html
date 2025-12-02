@@ -40,83 +40,84 @@
 
       <div class="main-text">
         
-<h2 style="margin-bottom: 15px;"> 动态规划 </h2>
+<h2 style="margin-bottom: 15px;"> Brain Science - Productivity </h2>
 
-<p>计算到从起点（左上角）到终点（右下角）的路径数：</p>
+<p><img src="/images/productivity.png" alt="" /></p>
 
-<div class="language-javascript highlighter-rouge"><pre class="highlight"><code>
-<span class="cm">/*
+<hr />
 
-x x      x
-x x      x(1,2)
-x x(2,1) x(2,2)
+<p><img src="/images/2025_11_11_18_51_33.png" alt="" /></p>
 
-到(2,2)的所有路径 = 到(1,2)的所有路径 + 到(2,1)的所有路径
+<hr />
 
-*/</span>
+<p>Notes:</p>
 
+<p>不存在执行力差：
+拖延是大脑在抵抗模糊
+大脑只会自动执行一件事：可预测序列（它能想象出第一步，它知道下一秒发生什么）
+问题在于，大多数目标，都是抽象的，概念化的，甚至没有入口
+确定性永远优先于重要性，不是价值判断，是神经算法。拖延是风险规避，大脑激活的是不确定带来的能量损耗的防御机制（节能）
+所有抗拒，都不是对行动本身，而是对没有入口点的混沌
+所以改变不是强迫自己去做，而是把目标结构化成大脑能立刻执行的程序（消除模糊，清晰的入口点）</p>
 
+<hr />
 
-<span class="cm">/*
+<p>如果要一句话涵盖最关键的三个脑科学概念，同时保留核心原理，可以这样表达：
+前额叶喜欢明确具体的任务，模糊和不确定的目标会激活边缘系统（尤其杏仁核）让我们拖延，只有把目标拆成清晰入口点才能调动基底节形成行动习惯。</p>
 
-[1,1]: 1
+<p>三大关键脑区和原理都齐了：
+前额叶：计划与执行、处理明确任务
+边缘系统/杏仁核：感知风险、引发拖延
+基底节：形成具体行动的习惯与自动化</p>
 
-[1,2]: 1
-[1,3]: 1
+<hr />
 
-[2,1]: 1
-[3,1]: 1
+<ul>
+  <li>Performance Paradox（绩效悖论）</li>
+</ul>
 
-[2,2]: 2
+<p>Extend your goals out. See the bigger product.（更长远的目标，最终想要达到的位置）
+核心就是找到真正有用的事情去做
+目标太近，就算走弯路也可以到达，也容易透支自己
+否则，还不如花时间休息、恢复体力、享受生活等等（less is more）你越在意目标，就越有责任照顾好自己（你是司机，是载体也是燃料，你是一切）</p>
 
-x x
-x x
+<ul>
+  <li>The Obvious Target Trap（显而易见的陷阱）
+Simplicity is king（简单才是王道）
+Prioritizing: Not wasting your time on things you shouldn’t be doing in the first place. (8020 法则)
+找出 key levers（关键杠杆）（PS：其实核心跟前面一样）
+Choosing to do less stuff.</li>
+</ul>
 
-注意：坐标表示需要x,y都-1
+<p>Prioritizing 的几个注意点：
+1) 找出优先级，通常意味着有不舒服的感觉，因为你可能要主动选择放弃一些你认为重要的事情
+但也意味着你认为有更重要的事情要做，这种选择在未来带来的正向反馈会远远超越单纯的舒不舒服的感觉
+2) 任务的优先级不应该与你的价值观相同，否则会变得非常二元化，会发现一些事情的优先级总是最高，其它一些事情会被不断推迟
+应该是在日常生活中，你的优先级应该反映背景和情况在短期对你来说重要的事，比如说每周。</p>
 
-*/</span>
+<ul>
+  <li>The Marginal Gains Fallacy（边际收益谬误）
+复利
+进步会复利，退步也会复利，实际上大部分的人都是忽上忽下，基本上就没太大变化
+所以，区别在于，你有没有 data，有没有指标(metrics)告诉你，你做的优化是不是在进步</li>
+</ul>
 
-<span class="kr">const</span> <span class="nx">numberOfPath</span> <span class="o">=</span> <span class="p">(</span><span class="nx">row</span><span class="p">,</span> <span class="nx">col</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
-  <span class="kr">const</span> <span class="nx">dp</span> <span class="o">=</span> <span class="p">[]</span>
+<p>有两种指标：
+Outcome metric（结果指标）：是否达到目标，结果导向
+Proxy metric（代理指标）：但结果指标往往会滞后或者很难直接测量（提前找一个代理人或事，使得可以模拟测试你是否进步，只要进步的一些信号即可，用这些数据来判断是否朝着正确的方向前进）</p>
 
-  <span class="k">for</span> <span class="p">(</span><span class="kd">let</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">row</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
-    <span class="nx">dp</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+<hr />
 
-    <span class="k">for</span> <span class="p">(</span><span class="kd">let</span> <span class="nx">j</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">j</span> <span class="o">&lt;</span> <span class="nx">col</span><span class="p">;</span> <span class="nx">j</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
-      <span class="k">if</span> <span class="p">(</span><span class="nx">i</span> <span class="o">===</span> <span class="mi">0</span> <span class="o">||</span> <span class="nx">j</span> <span class="o">===</span> <span class="mi">0</span><span class="p">)</span> <span class="nx">dp</span><span class="p">[</span><span class="nx">i</span><span class="p">][</span><span class="nx">j</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span>
+<p>Learn skill fast</p>
 
-      <span class="k">if</span> <span class="p">(</span><span class="nx">i</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="o">&amp;&amp;</span> <span class="nx">j</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
-        <span class="nx">dp</span><span class="p">[</span><span class="nx">i</span><span class="p">][</span><span class="nx">j</span><span class="p">]</span> <span class="o">=</span> <span class="nx">dp</span><span class="p">[</span><span class="nx">i</span> <span class="o">-</span> <span class="mi">1</span><span class="p">][</span><span class="nx">j</span><span class="p">]</span> <span class="o">+</span> <span class="nx">dp</span><span class="p">[</span><span class="nx">i</span><span class="p">][</span><span class="nx">j</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span>
-      <span class="p">}</span>
-    <span class="p">}</span>
-  <span class="p">}</span>
+<p>The fastest way to learn any skill is to learn more slowly</p>
 
-  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">dp</span><span class="p">)</span>
+<p>cognitive overload</p>
 
-  <span class="k">return</span> <span class="nx">dp</span><span class="p">[</span><span class="nx">row</span> <span class="o">-</span> <span class="mi">1</span><span class="p">][</span><span class="nx">col</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span>
-<span class="p">}</span>
+<p>大脑的工作记忆（前额叶）容量有限，理论过载会导致认知过载和学习停滞，只有结合实践、让技能逐步习惯化（基底节参与），才能持续高效地掌握新技能。</p>
 
-<span class="kd">var</span> <span class="nx">re</span> <span class="o">=</span> <span class="nx">numberOfPath</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">re</span><span class="p">)</span>
-
-<span class="kd">var</span> <span class="nx">re</span> <span class="o">=</span> <span class="nx">numberOfPath</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">re</span><span class="p">)</span>
-
-<span class="kd">var</span> <span class="nx">re</span> <span class="o">=</span> <span class="nx">numberOfPath</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">re</span><span class="p">)</span>
-
-<span class="kd">var</span> <span class="nx">re</span> <span class="o">=</span> <span class="nx">numberOfPath</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">)</span>
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">re</span><span class="p">)</span>
-
-<span class="kd">var</span> <span class="nx">re</span> <span class="o">=</span> <span class="nx">numberOfPath</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">4</span><span class="p">)</span>
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">re</span><span class="p">)</span>
-
-</code></pre>
-</div>
-
-<p>从递归到动态规划的转变，核心是从一种自顶向下的解决问题的方式（递归）转变为自底向上的方式（动态规划），通过保存中间结果来避免重复计算，从而显著提高算法效率。这种转变涉及到对问题的结构性理解，发现最优子结构，定义状态和状态转移方程，并实现有效的计算和存储方式。</p>
-
-<p>动态规划的核心思想是利用子问题的解来构建原问题的解，而这通常需要状态转移方程。</p>
+<p>1 小时理论，5 小时练习（只是经验数据，因为花更长时间学习往往情况更复杂，重要的是如何监测养成习惯的速度）
+如何检测：更快、更容易，但又不影响准确性和一致性</p>
 
 
       </div>
