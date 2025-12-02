@@ -1,7 +1,7 @@
 ---
 layout: template
 title: 全部内容
-text: Reach out to gjl87910lq@gmail.com for more
+text: "Email: gjl87910lq@gmail.com"
 ---
 <ul>
 
