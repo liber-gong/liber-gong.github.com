@@ -37,7 +37,7 @@ Thanks to [Derek Silvers](https://sive.rs/now) — his trip to meet me in Shangh
 适合目前的行动和计划：
 
 - 做礼拜、晚上读一章圣经、简单祷告
-- 近期先把刘弟兄的音频听完，完成笔记
+- 近期先把滕弟兄的音频听完，完成笔记
 
 ## Productivity
 
